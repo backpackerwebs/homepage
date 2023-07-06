@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/* Layout (global rules for all sizes) */
+
+body { margin: 0; padding: 0; }
+
+header a .logo {
+	/*display: block;
+	position: absolute;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	*/
+}
+
+nav {
+	width: 100%;
+	display: block;
+	position: absolute;
+	background-color: #a6430a;
+}
+	
+
+/* Layout Large Screens (default for older browsers) */
+
+header {
+	height: 180px;
+	background: url(../images/banner_large.jpg) no-repeat left 0px;
+}
+
+header #header-widgets {
+	width: 728px;
+	height: 90px;
+	float: right;
+	top: 0px;
+	right: 0px;
+	/*border: 1px solid #333;*/
+}
+
+
+article { padding: 60px 20px 10px 20px; }
+
+.promo.one { background-image: url(../images/promo_1.jpg); }
+.promo.two { background-image: url(../images/promo_2.jpg); }
+.promo.three { background-image: url(../images/promo_3.jpg); }
+.promo.four { background-image: url(../images/promo_4.jpg); }
+.promo.five { background-image: url(../images/promo_5.jpg); }
+.promo.six { background-image: url(../images/promo_6.jpg); }
+.promo.seven { background-image: url(../images/promo_7.jpg); }
+.promo.eight { background-image: url(../images/promo_8.jpg); }
+.promo.nine { background-image: url(../images/promo_9.jpg); }
+.promo.ten { background-image: url(../images/promo_10.jpg); }
+.promo.eleven { background-image: url(../images/promo_11.jpg); }
+.promo.twelve { background-image: url(../images/promo_12.jpg); }
+.promo.thirteen { background-image: url(../images/promo_13.jpg); }
+.promo.fourteen { background-image: url(../images/promo_14.jpg); }
+.promo.fifteen { background-image: url(../images/promo_15.jpg); }
+.promo.sixteen { background-image: url(../images/promo_16.jpg); }
+
+/* Leisure Page */
+.promo.alex { background-image: url(../images/alex_leisure.jpg); }
+.promo.leisureone { background-image: url(../images/leisure_1.jpg); }
+.promo.leisuretwo { background-image: url(../images/leisure_2.jpg); }
+.promo.leisurethree { background-image: url(../images/leisure_3.jpg); }
+.promo.leisurefour { background-image: url(../images/leisure_4.jpg); }
+
+
+.promo_container { padding: 0px 0px 15px 20px; }
+.promo_container .promo {
+	width: 33%;
+	float: left;
+	background-position: 0px 3px;
+	height: 400px; /* Set a height for the promo DIV to avoid pushing DIV below down*/
+}
+.promo_container .promo .content { padding: 230px 30px 0px 0px; }
+
+
+nav { top: 180px; }
+nav a { margin: 12px 0px 10px 20px; }
+
+@media screen and (max-width:990px) {
+	footer { padding-left: 20px; }
+}

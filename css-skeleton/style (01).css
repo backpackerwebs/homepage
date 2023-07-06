@@ -1,0 +1,212 @@
+/* Custom Styles Write Here ... */
+
+.one-third.column {
+		
+		margin-left: 0px;
+		padding-right: 10px;
+	}
+
+
+h1 {
+    color: #a6430a;
+    margin: .2em auto;
+}
+
+.headerImage{
+	background: url("../images/backpackerwebs-home-header-1.jpg" alt="背包自助旅遊、自由行") no-repeat center;
+	height: 210px;
+	background-size: auto;
+}
+
+.headerImage h2 {
+	font-size: 4.0rem;
+	color: #ffbb33;
+	font-weight: 600;
+}
+
+.headerDescription {
+	margin-top: -15px; 
+	padding-left: 30px;
+	font-size:1.2em;
+	color: #ffe6b3;
+}
+
+.headerMenu {
+	background-color:#ccc;
+	height: 20px;
+	padding:10px;
+}
+
+/* Header Navigation Menu */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a6430a;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  /*padding: 14px 16px;*/
+  padding-top: 14px;
+  padding-left: 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #a6430a;
+}
+
+
+.guestPost{
+	height: 200px;
+	background: url("../images/guest-backpacker-3.png" alt="自助旅遊發表文章") no-repeat right;
+	border: 2px solid #ccc;
+	padding: 10px
+}
+
+.video{
+	height: 200px;
+	background: url("../images/video-tour.png" alt="自助旅遊影片") no-repeat right;
+	border: 2px solid #ccc;
+	padding: 10px
+}
+
+.guestPost h3 {
+	font-size: 3.0rem;
+	color: #575c7a;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.guestPost p {
+	
+}
+
+.guestPost .button {
+	font-size: 1.5rem;
+	
+}
+
+
+/* Travel Tours Display*/
+.travelContent{
+	height: 380px;
+	/*border: 1px solid #ccc;*/ /* Use for design process */
+}
+
+img {
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.travelImageBox {
+	height: 100%;
+    width: 100%;
+	/*border: 1px solid #33ffcc;*/	
+}
+
+.travelDescription {
+	
+}
+
+.travelImageBox h3 {
+	font-size: 2.0rem;
+	color: #de9000;
+	font-weight: 300;
+	margin-bottom: 5px;
+}
+
+/* break intro article to 2 column for easy reading */
+article {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-width: 3500px;
+     -moz-column-width: 350px;
+          column-width: 350px;
+}
+
+.footerContent {
+	margin-top:15px;
+	height:100px;
+	background-color:#ddd;
+	text-align: center;
+	line-height: 100px;
+}
+
+/* If browser window is 600px or smaller, display one travel only */
+@media only screen and (max-width: 600px) {
+	.one-third.column.travelContent {
+		width:100%;
+		margin-left: 0px;
+	}
+	
+	.one-half.column.travelContent  {
+		width:100%;
+	}
+
+}
+
+
+
+/* If browser window greater than 601px AND smaller than 950, dispaly 2 travel */
+@media only screen and (min-width:601px) and (max-width:950px) {
+	.one-third.column.travelContent {
+		width:50%;
+		margin-left: 0px;
+		padding-right: 25px;
+	}
+	
+	.travelImageBox h3 {
+		font-size: 1.5rem;
+	}
+	
+	
+
+	.one-half.column.guestPost  { 	/* display 2 guestPost Box */
+		width:47%;
+		padding-right: 25px;
+    		margin-left: 0px;	/* Align bottom block to left */
+		margin-right: 10px;	/* Avoid two box stick together */
+	}
+
+	.guestPost p {
+    		margin-bottom: 15px;	/* Button too near bottom, Push it up a little */
+	}
+}
+
+
+/* If browser window is 800px or smaller, display one guestPost only */
+@media only screen and (max-width: 800px) {
+	.one-half.column.guestPost  {	/* display 1 guestPost Box */
+		width:100%;
+		margin-bottom: 20px;	/* Avoid bottom block stick with top block */
+    		margin-left: 0px;	/* Align bottom block to left */
+	}
+}
+
+
+/* If browser window greater than 751px AND smaller than 1200, larger travel heading font */
+@media only screen and (min-width:751px) and (max-width:1200px) {
+	
+	.travelImageBox h3 {
+		font-size: 1.8rem;
+	}
+	
+}
+
+/* If browser window is 951px or greater, dispaly 3 travel */
+@media only screen and (min-width: 951px) {
+	.one-third.column.travelContent {
+		width:33%;
+		
+	}
+}

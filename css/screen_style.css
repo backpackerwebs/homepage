@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/* Global Content Formatting and Styles */
+
+body {
+	color: #575c7a;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background: #039;
+}
+
+.page {
+	max-width: 980px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	background-color: #fff;	
+}
+
+h1 { font-size: 2em; font-weight: normal; color: #a6430a; margin: 0 0 .5em 0; }
+h2 { font-size: 1.7em; margin: 0 0 1em 0; }
+h3 { font-size: 1.5em; margin: 0 0 1em 0; }
+p { margin: 0 0 .75em 0; }
+a { color: #de9000; }
+a:hover {color: #009eff; }
+
+footer { font-size: .85em; color: #9ba0bd; background-color: #575c7a; padding: 10px 10px 10px 0px; }
+
+a.cta {
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: bold;
+	text-decoration: none;
+	margin: .5em 0 0 0;
+	padding: 0px 28px 0px 0px;
+	background: url(../images/cta_arrow.png) no-repeat right 0px;
+}
+
+.promo h3 { font-size: 1.1em; margin:0; }
+.promo p { line-height: 1.2em; font-size: .9em; margin-bottom: .5em; }
+
+.promo { background-repeat: no-repeat; }
+/*
+.promo.one { background-image: url(../images/promo_1.jpg); }
+.promo.two { background-image: url(../images/promo_2.jpg); }
+.promo.three { background-image: url(../images/promo_3.jpg); }
+*/
+
+nav a {
+	color: #f5a06e;
+	/*text-transform: uppercase;*/
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 1em;
+}
+nav a:hover {color: #fff; }
+
+.clear-fix { clear: both; line-height: 1px; }
+
+/* break intro article to 2 column for easy reading */
+article {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-width: 3500px;
+     -moz-column-width: 350px;
+          column-width: 350px;
+}
+
+
+/* To add contents for guest site and donation */
+/* Create a 2 equal column DIV */
+.twoEqualColumn {
+  float: left;
+  width: 42%;
+  padding: 10px;
+  margin: 20px;
+  /*height: 300px;*/ /* Should be removed. Only for development */
+}
+
+/* Clear floats after the columns */
+.twoEqualRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Add a click button */
+.clickButton {
+    background-color: #bacde1;
+    color: black;
+	border: 1px solid #a1a1a1;
+	border-radius: 10px;
+}
+
+a.clickButton {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 10px;
+}
+
+a.clickButton:hover {
+    background-color: #f5a06e;
+    color: black;
+}
+
+
+
+	

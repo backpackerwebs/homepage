@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* Layout Medium Screens */
+/* Viewport Size: 541px - 800px */
+
+
+header {
+	height: 120px;
+	/*background: url(../images/banner_medium.jpg) no-repeat 90% 0px;*/
+	background: url(../images/banner_medium.jpg) no-repeat left 0px;
+}
+
+header #header-widgets {
+	width: 468px;
+	height: 60px;
+	float: right;
+	top: 0px;
+	right: 0px;
+	/*border: 1px solid #333;*/
+}
+
+nav { top:120px; }
+nav a { margin-right: 20px; }
+
+.promo.one { background-image: url(../images/promo_1_medium.jpg); }
+.promo.two { background-image: url(../images/promo_2_medium.jpg); }
+.promo.three { background-image: url(../images/promo_3_medium.jpg); }
+.promo.four { background-image: url(../images/promo_4_medium.jpg); }
+.promo.five { background-image: url(../images/promo_5_medium.jpg); }
+.promo.six { background-image: url(../images/promo_6_medium.jpg); }
+.promo.seven { background-image: url(../images/promo_7_medium.jpg); }
+.promo.eight { background-image: url(../images/promo_8_medium.jpg); }
+.promo.nine { background-image: url(../images/promo_9_medium.jpg); }
+.promo.ten { background-image: url(../images/promo_10_medium.jpg); }
+.promo.eleven { background-image: url(../images/promo_11_medium.jpg); }
+.promo.twelve { background-image: url(../images/promo_12_medium.jpg); }
+.promo.thirteen { background-image: url(../images/promo_13_medium.jpg); }
+.promo.fourteen { background-image: url(../images/promo_14_medium.jpg); }
+.promo.fifteen { background-image: url(../images/promo_15_medium.jpg); }
+.promo.sixteen { background-image: url(../images/promo_16_medium.jpg); }
+
+/* Leisure Page */
+.promo.alex { background-image: url(../images/alex_leisure_medium.jpg); }
+.promo.leisureone { background-image: url(../images/leisure_1_medium.jpg); }
+.promo.leisuretwo { background-image: url(../images/leisure_2_medium.jpg); }
+.promo.leisurethree { background-image: url(../images/leisure_3_medium.jpg); }
+.promo.leisurefour { background-image: url(../images/leisure_4_medium.jpg); }
+
+.promo_container { padding: 0px 20px 15px 20px; }
+
+.promo_container .promo { background-position: 0px 0px; }
+
+.promo_container .promo {
+	width: 50%;
+	float: left;
+	background-position: 0px 3px;
+	height: 300px; /* Set a height for the promo DIV to avoid pushing DIV below down*/
+}
+
+.promo_container .promo .content { padding: 160px 30px 0px 0px; }
